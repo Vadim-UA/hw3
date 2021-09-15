@@ -1,0 +1,93 @@
+/* Обнулив стилі */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+/* --------------- */
+
+#autor {
+   color: orange;
+}
+main {
+   color: teal;
+}
+.wrapper {
+   color: purple;
+}
+.text {
+   color: brown;
+}
+.aboutbook.heroes {
+   color: blue;
+}
+.heroes {
+   color: white; /*не "перебиває" інлайновий*/
+}
+.history {
+   color: coral;
+}
+.subtext {
+   color: darkcyan;
+}
+.colorred {
+   color: red;
+}
+.autortext {
+   color: navy;
+}
+.title {
+   color: black;
+}
+.subtitle {
+   color: black;
+}
+.escape {
+   color: red;
+}
+.wolf ~ span {
+   color: forestgreen;
+}
+.green {
+   color: green;
+}
+.blue {
+   color: blue;
+}
+.mind {
+   color: lime;
+}
+.mind > span {
+   color: mediumvioletred;
+}
+.end {
+   color: lightslategray;
+}
+.end ~ span{
+   color: navy;
+}
+
